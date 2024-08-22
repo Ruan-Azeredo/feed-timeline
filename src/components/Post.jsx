@@ -1,3 +1,4 @@
+import Avatar from './Avatar'
 import styles from './Post.module.css'
 
 const Post = () => {
@@ -5,7 +6,7 @@ const Post = () => {
         <article className={styles.post}>
             <header>
                 <div className={styles.author}>
-                    <img src="https://github.com/Ruan-Azeredo.png"/>
+                    <Avatar src="https://github.com/Ruan-Azeredo.png"/>
                     <div className={styles.authorInfo}>
                         <strong>Ruan Azeredo</strong>
                         <span>Web Developer</span>
